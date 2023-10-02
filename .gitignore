@@ -1,0 +1,9 @@
+__pycache__
+
+.DS_Store
+
+env_python_rewrite
+
+visuals
+
+output_files/training_data/
