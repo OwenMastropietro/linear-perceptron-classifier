@@ -121,6 +121,8 @@ def number_of_loops(image: ndarray) -> int:
 
     assert isinstance(image, ndarray)
 
+    image = np.copy(image)
+
     BLACK, WHITE = 0, 1
     NUM_ROWS, NUM_COLS = len(image), len(image[0])
 
